@@ -296,18 +296,14 @@ export default function RegisterPage() {
               <Activity size={16} className="text-emerald-500" /> Treatment Progression
             </p>
             <div className="flex items-center gap-4">
-              <input type="range" min="0" max="100" value={active.progression}
-                onChange={e => setProgression(parseInt(e.target.value))}
-                className="flex-1 accent-emerald-500 h-2 rounded-full cursor-pointer" />
+              <div className="flex-1 h-3 rounded-full bg-white/30 overflow-hidden">
+                <div className="h-full rounded-full bg-gradient-to-r from-emerald-400 to-teal-500 transition-all duration-700" style={{ width: `${active.progression}%` }} />
+              </div>
               <div className="grid h-12 w-12 place-items-center rounded-xl bg-white/60 text-sm font-extrabold text-emerald-700">
                 {active.progression}%
               </div>
             </div>
-            <div className="mt-2 flex justify-between text-[10px] font-bold text-emerald-600/50 uppercase tracking-wider">
-              <span>Not Started</span>
-              <span>In Progress</span>
-              <span>Completed</span>
-            </div>
+            <p className="mt-2 text-[10px] font-bold text-emerald-600/50 uppercase tracking-wider text-center">Auto-updates after each session</p>
           </div>
         </div>
       )}

@@ -69,7 +69,7 @@ export const useStore = create(
         }
       }, extractedSymptoms: [], voiceTranscript: '' });
     },
-    saveCase: () => set(s => ({ cases: [{ ...s.active, savedAt: new Date().toISOString() }, ...s.cases], active: blankCase() })),
+    saveCase: () => set(s => ({ cases: [{ ...s.active, savedAt: new Date().toISOString(), progression: s.active.progression || 10 }, ...s.cases], active: blankCase() })),
     deleteCase: (id) => set(s => ({ cases: s.cases.filter(c => c.id !== id) })),
     updateCase: (id, updates) => set(s => ({ cases: s.cases.map(c => c.id === id ? { ...c, ...updates } : c) })),
     reset: () => set({ active: blankCase() }),

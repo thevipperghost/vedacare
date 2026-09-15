@@ -7,11 +7,13 @@ import { useStore } from '../store/useStore.js';
 export default function CaseSheetPage() {
   const { id } = useParams();
   const { t } = useLang();
-  const { cases } = useStore();
+  const { cases, updateCase } = useStore();
   const c = cases.find(c => c.id === id);
   const [tab, setTab] = useState('overview');
   const [diagnosis, setDiagnosis] = useState(c?.diagnosis || '');
   const [instructions, setInstructions] = useState(c?.instructions || '');
+  const [followUp, setFollowUp] = useState(c?.followUp || '');
+  const [saved, setSaved] = useState(false);
 
   if (!c) return (
     <div className="card p-14 text-center animate-fade-in">
@@ -240,9 +242,16 @@ export default function CaseSheetPage() {
           </label>
           <label className="block mb-6">
             <span className="mb-1.5 block text-xs font-bold text-emerald-700/60 uppercase tracking-wider">{t('case.followUp')}</span>
-            <input type="date" className="input max-w-xs" />
+            <input type="date" className="input max-w-xs" value={followUp} onChange={e => setFollowUp(e.target.value)} />
           </label>
-          <button className="btn-primary group"><Save size={16} /> {t('case.save')}</button>
+          <button className="btn-primary group" onClick={() => {
+            const scheduleUpdate = followUp ? { date: followUp, status: 'pending' } : {};
+            updateCase(id, { diagnosis, instructions, followUp, progression: Math.min(100, (c.progression || 0) + 10), schedule: { ...c.schedule, ...scheduleUpdate } });
+            setSaved(true);
+            setTimeout(() => setSaved(false), 2000);
+          }}>
+            <Save size={16} /> {saved ? 'Saved!' : t('case.save')}
+          </button>
         </div>
       )}
     </>
