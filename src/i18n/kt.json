@@ -1,0 +1,55 @@
+{
+  "app": { "name": "Vedacare" },
+  "nav": { "register": "નવો દર્દી", "dashboard": "ડેશબોર્ડ", "cases": "કેસ શીટ", "logout": "લૉગઆઉટ" },
+  "lang": { "select": "ભાષા", "en": "English", "hi": "हिन्दी", "gu": "ગુજરાતી", "mr": "મરાઠી", "kt": "કચ્છી" },
+  "reg": {
+    "title": "દર્દી નોંધણી",
+    "step1": "વ્યક્તિગત માહિતી", "step2": "મુખ્ય ફરિયાદ", "step3": "વૈદ્ય ઇતિહાસ", "step4": "આયુર્વેદિક મૂલ્યાંકન",
+    "name": "પૂરું નામ", "nameP": "દા.ત. રામદાસ શર્મા",
+    "age": "ઉંમર", "gender": "લિંગ", "male": "પુરુષ", "female": "સ્ત્રી", "other": "અન્ય",
+    "phone": "ફોન", "email": "ઈમેઈલ", "blood": "લોહી જૂથ", "occupation": "વ્યવસાય",
+    "address": "સરનામું",
+    "emergency": "કટોકટ સંપર્ક", "emergencyName": "સંપર્ક વ્યક્તિ", "emergencyPhone": "સંપર્ક ફોન",
+    "complaint": "મુખ્ય ફરિયાદ", "complaintP": "દા.ત. સાંધાનો દુખાવો",
+    "duration": "સમયગાળો", "durationP": "દા.ત. ૩ દિવસ",
+    "severity": "તીવ્રતા", "mild": "હળવું", "moderate": "મધ્યમ", "severe": "તીવ્ર",
+    "location": "સ્થળ", "locationP": "દા.ત. ડાબું ઘૂંટણ",
+    "nature": "સ્વરૂપ", "natureP": "દા.ત. તીખો, બાળ",
+    "aggravating": "વધારતા પરિબળો", "relieving": "ઘટાડતા પરિબળો",
+    "symptoms": "સંબંધિત લક્ષણો", "addSymptom": "લક્ષણ ઉમેરો",
+    "pastIllness": "અગાઉના રોગો", "medications": "વર્તમાન દવાઓ", "allergies": "એલર્જી",
+    "familyHistory": "કુટુંબ ઇતિહાસ", "diet": "આહાર", "sleep": "ઊંઘ", "exercise": "કસરત",
+    "stress": "તણાવ", "bowel": "આંતરડા ચાલના",
+    "prakriti": "પ્રકૃતિ", "vikriti": "વિકૃતિ",
+    "vata": "વાયુ", "pitta": "પિત્ત", "kapha": "કફ",
+    "ashtavidha": "અષ્ટવિધા પરીક્ષા",
+    "nadi": "નાડી", "jihva": "જીભ", "mootra": "મૂત્ર", "mala": "મળ",
+    "shabda": "શબ્દ", "sparsha": "સ્પર્શ", "drik": "દૃષ્ટિ", "akriti": "આકૃતિ",
+    "notes": "નોંધ", "notesP": "વધારાની નોંધ...",
+    "submit": "નોંધણી જમા કરો", "success": "દર્દી સફળતાપૂર્વક નોંધાયા!"
+  },
+  "voice": {
+    "title": "અવાજ સહાયક", "subtitle": "તમારા લક્ષણો કહો",
+    "greeting": "નમસ્કાર! મને કહો તમને શું તકલીફ છે.",
+    "listening": "સાંભળી રહ્યા છીએ...", "heard": "મેં સાંભળ્યું:",
+    "autoFill": "ફોર્મ ભરો", "retry": "ફરી પ્રયાસ", "stop": "બંધ કરો",
+    "noSpeech": "કંઈ સંભળાયું નથી. ફરી બોલો.",
+    "unsupported": "તમારા બ્રાઉઝરમાં અવાજ ઓળખ ઉપલબ્ધ નથી."
+  },
+  "case": {
+    "title": "કેસ શીટ", "patientInfo": "દર્દી માહિતી",
+    "complaint": "મુખ્ય ફરિયાદ", "history": "વૈદ્ય ઇતિહાસ",
+    "ayurvedic": "આયુર્વેદિક મૂલ્યાંકન",
+    "nadiV": "નાડી", "jihvaV": "જીભ", "mootraV": "મૂત્ર", "malaV": "મળ",
+    "shabdaV": "શબ્દ", "sparshaV": "સ્પર્શ", "drikV": "દૃષ્ટિ", "akritiV": "આકૃતિ",
+    "diagnosis": "નિદાન", "diagnosisP": "નિદાન દાખલ કરો...",
+    "instructions": "ખાસ સૂચનાઓ", "instructionsP": "દા.ત. આરામ, તેલ માલિશ...",
+    "followUp": "આગળની મુલાકાત", "save": "કેસ શીટ સાચવો"
+  },
+  "dash": {
+    "title": "ડૉક્ટર ડેશબોર્ડ", "queue": "દર્દી રાંધણી", "search": "નામ કે ફરિયાદથી શોધો...",
+    "total": "કુલ કેસ", "today": "આજે", "severe": "ગંભીર", "empty": "કેસ શીટ જોવા દર્દી પસંદ કરો",
+    "filterAll": "બધા", "filterDraft": "ડ્રાફ્ટ", "filterSubmitted": "જમા"
+  },
+  "common": { "next": "આગળ", "back": "પાછળ", "save": "સાચવો", "cancel": "રદ કરો", "add": "ઉમેરો", "close": "બંધ", "delete": "કાઢો", "loading": "લોડ થઈ રહ્યું છે..." }
+}

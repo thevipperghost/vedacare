@@ -1,0 +1,58 @@
+{
+  "app": { "name": "Vedacare" },
+  "nav": { "register": "New Patient", "dashboard": "Dashboard", "cases": "Case Sheets", "logout": "Logout" },
+  "lang": { "select": "Language", "en": "English", "hi": "हिन्दी", "gu": "ગુજરાતી", "mr": "मराठी", "kt": "કચ્છી" },
+  "reg": {
+    "title": "Patient Registration",
+    "step1": "Personal Info",
+    "step2": "Chief Complaints",
+    "step3": "Medical History",
+    "step4": "Ayurvedic Assessment",
+    "name": "Full Name", "nameP": "e.g. Ramdas Sharma",
+    "age": "Age", "gender": "Gender", "male": "Male", "female": "Female", "other": "Other",
+    "phone": "Phone", "email": "Email", "blood": "Blood Group", "occupation": "Occupation",
+    "address": "Address",
+    "emergency": "Emergency Contact", "emergencyName": "Contact Name", "emergencyPhone": "Contact Phone",
+    "complaint": "Primary Complaint", "complaintP": "e.g. Joint pain, Headache, Stomach ache",
+    "duration": "Duration", "durationP": "e.g. 3 days, 2 weeks",
+    "severity": "Severity", "mild": "Mild", "moderate": "Moderate", "severe": "Severe",
+    "location": "Location", "locationP": "e.g. Left knee, Abdomen",
+    "nature": "Nature", "natureP": "e.g. Sharp, Burning, Stiff",
+    "aggravating": "Aggravating Factors", "relieving": "Relieving Factors",
+    "symptoms": "Associated Symptoms", "addSymptom": "Add symptom",
+    "pastIllness": "Past Illnesses", "medications": "Current Medications", "allergies": "Allergies",
+    "familyHistory": "Family History", "diet": "Diet", "sleep": "Sleep", "exercise": "Exercise",
+    "stress": "Stress Level", "bowel": "Bowel Habits",
+    "prakriti": "Prakriti (Constitution)", "vikriti": "Vikriti (Imbalance)",
+    "vata": "Vata", "pitta": "Pitta", "kapha": "Kapha",
+    "ashtavidha": "Ashtavidha Pariksha",
+    "nadi": "Nadi (Pulse)", "jihva": "Jihva (Tongue)", "mootra": "Mootra (Urine)", "mala": "Mala (Stool)",
+    "shabda": "Shabda (Voice)", "sparsha": "Sparsha (Touch)", "drik": "Drik (Eyes)", "akriti": "Akriti (Build)",
+    "notes": "Clinical Notes", "notesP": "Additional observations...",
+    "submit": "Submit Registration", "success": "Patient registered successfully!"
+  },
+  "voice": {
+    "title": "Voice Assistant", "subtitle": "Dictate your symptoms",
+    "greeting": "Hello! Tell me what is bothering you.",
+    "listening": "Listening...", "heard": "I heard:",
+    "autoFill": "Fill Form", "retry": "Try Again", "stop": "Stop",
+    "noSpeech": "Nothing heard. Please try again.",
+    "unsupported": "Speech recognition not supported in this browser."
+  },
+  "case": {
+    "title": "Case Sheet", "patientInfo": "Patient Info",
+    "complaint": "Chief Complaint", "history": "Medical History",
+    "ayurvedic": "Ayurvedic Assessment",
+    "nadiV": "Nadi", "jihvaV": "Jihva", "mootraV": "Mootra", "malaV": "Mala",
+    "shabdaV": "Shabda", "sparshaV": "Sparsha", "drikV": "Drik", "akritiV": "Akriti",
+    "diagnosis": "Diagnosis", "diagnosisP": "Enter diagnosis...",
+    "instructions": "Special Instructions", "instructionsP": "e.g. Rest, Oil massage...",
+    "followUp": "Follow-up Date", "save": "Save Case Sheet"
+  },
+  "dash": {
+    "title": "Doctor Dashboard", "queue": "Patient Queue", "search": "Search by name or complaint...",
+    "total": "Total Cases", "today": "Today", "severe": "Severe", "empty": "Select a patient to view case sheet",
+    "filterAll": "All", "filterDraft": "Draft", "filterSubmitted": "Submitted"
+  },
+  "common": { "next": "Next", "back": "Back", "save": "Save", "cancel": "Cancel", "add": "Add", "close": "Close", "delete": "Delete", "loading": "Loading..." }
+}

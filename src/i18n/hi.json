@@ -1,0 +1,58 @@
+{
+  "app": { "name": "Vedacare" },
+  "nav": { "register": "नया रोगी", "dashboard": "डैशबोर्ड", "cases": "केस शीट", "logout": "लॉगआउट" },
+  "lang": { "select": "भाषा", "en": "English", "hi": "हिन्दी", "gu": "ગુજરાતી", "mr": "मराठी", "kt": "કચ્છી" },
+  "reg": {
+    "title": "रोगी पंजीकरण",
+    "step1": "व्यक्तिगत जानकारी",
+    "step2": "मुख्य शिकायत",
+    "step3": "चिकित्सा इतिहास",
+    "step4": "आयुर्वेदिक मूल्यांकन",
+    "name": "पूरा नाम", "nameP": "उदा. रामदास शर्मा",
+    "age": "आयु", "gender": "लिंग", "male": "पुरुष", "female": "स्त्री", "other": "अन्य",
+    "phone": "फोन", "email": "ईमेल", "blood": "रक्त समूह", "occupation": "व्यवसाय",
+    "address": "पता",
+    "emergency": "आपातकालीन संपर्क", "emergencyName": "संपर्क व्यक्ति", "emergencyPhone": "संपर्क फोन",
+    "complaint": "मुख्य शिकायत", "complaintP": "उदा. जोड़ों में दर्द, सिरदर्द",
+    "duration": "अवधि", "durationP": "उदा. 3 दिन, 2 सप्ताह",
+    "severity": "तीव्रता", "mild": "हल्की", "moderate": "मध्यम", "severe": "गंभीर",
+    "location": "स्थान", "locationP": "उदा. बायां घुटना, पेट",
+    "nature": "प्रकृति", "natureP": "उदा. तेज, जलन, अकड़न",
+    "aggravating": "बढ़ाने वाले कारक", "relieving": "कम करने वाले कारक",
+    "symptoms": "संबंधित लक्षण", "addSymptom": "लक्षण जोड़ें",
+    "pastIllness": "पिछली बीमारियाँ", "medications": "वर्तमान दवाइयाँ", "allergies": "एलर्जी",
+    "familyHistory": "पारिवारिक इतिहास", "diet": "आहार", "sleep": "नींद", "exercise": "व्यायाम",
+    "stress": "तनाव", "bowel": "मल त्याग",
+    "prakriti": "प्रकृति", "vikriti": "विकृति",
+    "vata": "वात", "pitta": "पित्त", "kapha": "कफ",
+    "ashtavidha": "अष्टविधा परीक्षा",
+    "nadi": "नाड़ी", "jihva": "जिह्वा", "mootra": "मूत्र", "mala": "मल",
+    "shabda": "शब्द", "sparsha": "स्पर्श", "drik": "दृक्", "akriti": "आकृति",
+    "notes": "नैदानिक नोट्स", "notesP": "अतिरिक्त टिपणी...",
+    "submit": "पंजीकरण जमा करें", "success": "रोगी सफलतापूर्वक पंजीकृत!"
+  },
+  "voice": {
+    "title": "आवाज सहायक", "subtitle": "अपने लक्षण बताएं",
+    "greeting": "नमस्ते! मुझे बताएं आपको क्या परेशान कर रहा है।",
+    "listening": "सुन रहे हैं...", "heard": "मैंने सुना:",
+    "autoFill": "फॉर्म भरें", "retry": "पुनः प्रयास", "stop": "रोकें",
+    "noSpeech": "कुछ सुनाई नहीं दिया। कृपया फिर से बोलें।",
+    "unsupported": "आपके ब्राउज़र में आवाज पहचान उपलब्ध नहीं है।"
+  },
+  "case": {
+    "title": "केस शीट", "patientInfo": "रोगी जानकारी",
+    "complaint": "मुख्य शिकायत", "history": "चिकित्सा इतिहास",
+    "ayurvedic": "आयुर्वेदिक मूल्यांकन",
+    "nadiV": "नाड़ी", "jihvaV": "जिह्वा", "mootraV": "मूत्र", "malaV": "मल",
+    "shabdaV": "शब्द", "sparshaV": "स्पर्श", "drikV": "दृक्", "akritiV": "आकृति",
+    "diagnosis": "निदान", "diagnosisP": "निदान दर्ज करें...",
+    "instructions": "विशेष निर्देश", "instructionsP": "उदा. आराम करें, तेल मालिश...",
+    "followUp": "अगली भेटी", "save": "केस शीट सहेजें"
+  },
+  "dash": {
+    "title": "डॉक्टर डैशबोर्ड", "queue": "रोगी कतार", "search": "नाम या शिकायत से खोजें...",
+    "total": "कुल केस", "today": "आज", "severe": "गंभीर", "empty": "केस शीट देखने के लिए रोगी चुनें",
+    "filterAll": "सभी", "filterDraft": "ड्राफ्ट", "filterSubmitted": "जमा"
+  },
+  "common": { "next": "अगला", "back": "पीछे", "save": "सहेजें", "cancel": "रद्द करें", "add": "जोड़ें", "close": "बंद", "delete": "हटाएं", "loading": "लोड हो रहा है..." }
+}
